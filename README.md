@@ -1,2 +1,0 @@
-# tvmyru.github.io
-My

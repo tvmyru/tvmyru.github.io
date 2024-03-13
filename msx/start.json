@@ -1,0 +1,6 @@
+{    
+    "name": "WALS_MSX v2",
+    "version": "1.0.0",
+    "parameter": "content:https://tvmyru.github.io/msx/menu.json",
+        "welcome": "none"
+}

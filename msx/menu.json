@@ -9,31 +9,31 @@
            "items": [
          {
             "type": "space",
-            "layout": "5,0,6,6",
+            "layout": "7,0,4,6",
             "offset": "0.9,-1,0.2,1.67",
-            "color": "#2E8B57"
+            "color": "#ff9900"
          },
          {
             "id": "image",
             "type": "space",
-            "layout": "6,0,6,3",
+            "layout": "8,0,4,3",
             "image": ""
          },
          {
             "id": "text",
             "type": "space",
-            "layout": "6,3,6,2",
-            "headline": "Привет",
+            "layout": "8,3,4,2",
+            "headline": "",
             "text": ""
          }
       ]
    },
    "template": {
       "type": "default",
-      "layout": "0,0,3,1",
-      "area": "0,0,6,6",
+      "layout": "0,0,4,2",
+      "area": "0,0,8,6",
       "wrapperColor": "msx-glass",
-      "imageWidth": 1,
+      "imageWidth": 2,
       "color": "msx-glass",
       "imageFiller": "cover"
    },

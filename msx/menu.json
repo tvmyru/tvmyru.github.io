@@ -1,7 +1,7 @@
 {
    "type": "list",
-   "headline": "WALS_MSX v2",
-   "background": "https://img.goodfon.ru/original/1920x1080/2/ef/tekstura-abstrakciya-liniy-5389.jpg",
+   "headline": "TVMY v-MSX",
+   "background": "https://img.goodfon.ru/original/1920x1200/d/2f/abstrakciya-fraktal-oreolkrugi.jpg",
    "logo": "https://tvmyru.github.io/img/wals.png",   
     "logoSize": "large",   
    "preload": "next",
@@ -11,7 +11,7 @@
             "type": "space",
             "layout": "8,0,3,6",
             "offset": "0.9,-1,0.2,1.67",
-            "color": "#CC5500"
+            "color": "#FF6600"
          },
          {
             "id": "image",
@@ -40,6 +40,23 @@
       "imageFiller": "cover"
    },
    "items": [
+      {
+         "titleHeader": "{col:msx-white}LAMPA",
+         "titleFooter": "",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}LAMPA{col}{br}{col:black}Отличное прилдожение для просмотра фильмов и сериалов онлайн или через торрент. Для просмотра торрентов нужен TorrServe.",
+               "image": "https://tvmyru.github.io/msx/img/lampa-pic.jpg"
+            }
+         },
+         "image": "https://tvmyru.github.io/msx/img/lampa-logo.png",
+         "action": "link:http://lampa.mx",
+         "properties": {
+            "image:extension": "| {col:msx-white}Fifth Item"
+         }
+      },
       {
          "titleHeader": "{col:msx-white}DRM-play",
          "titleFooter": "IPTV player",
@@ -106,23 +123,6 @@
          "action": "link:http://icva.mx/",
          "properties": {
             "image:extension": "| {col:msx-white}Fourth Item"
-         }
-      },
-      {
-         "titleHeader": "{col:msx-white}LAMPA",
-         "titleFooter": "",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}LAMPA{col}{br}{col:black}Приложение-каталог. Не содержит медиаконтента, но легко трансформируется в онлайн кинотеатр с возможностью просмотра торрентов и iptv",
-               "image": "https://tvmyru.github.io/msx//lampa/capture3.gif"
-            }
-         },
-         "image": "https://tvmyru.github.io/msx//lampa/logo.png",
-         "action": "link:http://lampa.mx",
-         "properties": {
-            "image:extension": "| {col:msx-white}Fifth Item"
          }
       },
       {

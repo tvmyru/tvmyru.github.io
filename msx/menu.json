@@ -11,7 +11,7 @@
             "type": "space",
             "layout": "7,0,4,6",
             "offset": "0.9,-1,0.2,1.67",
-            "color": "#ff9900"
+            "color": "#077d72"
          },
          {
             "id": "image",
@@ -39,7 +39,7 @@
    },
    "items": [
       {
-         "titleHeader": "{col:msx-white}LAMPA",
+         "titleHeader": "{col:#1ac9b8}LAMPA",
          "titleFooter": "Фильмы и сериалы",
          "selection": {
             "important": true,
@@ -56,7 +56,7 @@
          }
       },
       {
-         "titleHeader": "{col:msx-white}DRM-play",
+         "titleHeader": "{col:#1ac9b8}DRM-play",
          "titleFooter": "IPTV player",
          "selection": {
             "important": true,
@@ -73,7 +73,7 @@
          }
       },
       {
-         "titleHeader": "{col:msx-white}Prisma_TV",
+         "titleHeader": "{col:#1ac9b8}Prisma_TV",
          "titleFooter": "Фильмы и сериалы",
          "selection": {
             "important": true,
@@ -90,7 +90,7 @@
          }
       },
       {
-         "titleHeader": "{col:msx-white}Akter Black",
+         "titleHeader": "{col:#1ac9b8}Akter Black",
          "titleFooter": "Фильмы и сериалы",
          "selection": {
             "important": true,
@@ -107,7 +107,7 @@
          }
       },
       {
-         "titleHeader": "{col:msx-white}ICVA",
+         "titleHeader": "{col:#1ac9b8}ICVA",
          "titleFooter": "IPTV player",
          "selection": {
             "important": true,
@@ -124,7 +124,7 @@
          }
       },
       {
-         "titleHeader": "{col:msx-white}VoKINO",
+         "titleHeader": "{col:#1ac9b8}VoKINO",
          "titleFooter": "Фильмы и сериалы",
          "selection": {
             "important": true,
@@ -141,7 +141,7 @@
          }
       },
       {
-         "titleHeader": "{col:msx-white}ATODO",
+         "titleHeader": "{col:#1ac9b8}ATODO",
          "titleFooter": "Фильмы и сериалы",
          "selection": {
             "important": true,
@@ -158,7 +158,7 @@
          }
       },
       {
-         "titleHeader": "{col:msx-white}КИНОПОИСК",
+         "titleHeader": "{col:#1ac9b8}КИНОПОИСК",
          "titleFooter": "",
          "selection": {
             "important": true,
@@ -175,7 +175,7 @@
          }
       },
       {
-         "titleHeader": "{col:msx-white}RUTUBE-WEB",
+         "titleHeader": "{col:#1ac9b8}RUTUBE-WEB",
          "titleFooter": "Видеоролики",
          "selection": {
             "important": true,
@@ -192,7 +192,7 @@
          }
       },
       {
-         "titleHeader": "{col:msx-white}YouTUBE",
+         "titleHeader": "{col:#1ac9b8}YouTUBE",
          "titleFooter": "Видеоролики",
          "selection": {
             "important": true,
@@ -209,7 +209,7 @@
          }
       },
       {
-         "titleHeader": "{col:msx-white}YOUTUBE KIDS",
+         "titleHeader": "{col:#1ac9b8}YOUTUBE KIDS",
          "titleFooter": "Видеоролики",
          "selection": {
             "important": true,
@@ -226,7 +226,7 @@
          }
       },
       {
-         "titleHeader": "{col:msx-white}МУЛЬТИКИ",
+         "titleHeader": "{col:#1ac9b8}МУЛЬТИКИ",
          "titleFooter": "Для детей",
          "selection": {
             "important": true,
@@ -243,7 +243,7 @@
          }
       },
       {
-         "titleHeader": "{col:msx-white}KinoPUB",
+         "titleHeader": "{col:#1ac9b8}KinoPUB",
          "titleFooter": "",
          "selection": {
             "important": true,
@@ -260,13 +260,13 @@
          }
       },
       {
-         "titleHeader": "{col:msx-white}БОНУС",
+         "titleHeader": "{col:#1ac9b8}БОНУС",
          "titleFooter": "",
          "selection": {
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}БОНУС{col}{br}{col:black}Здесь собраны ссылки на разнообразные материалы из сети Интернет.{br}Все материалы находятся в свободгом доступе в сети.",
+               "text": "{col:msx-white}БОНУС{col}{br}{col:black}Здесь собраны ссылки на разнообразные материалы из сети Интернет.{br}Все материалы находятся в свободном доступе в сети.",
                "image": "https://tvmyru.github.io/msx/img/bonus.png"
             }
          },

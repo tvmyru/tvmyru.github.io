@@ -1,12 +1,12 @@
 {
    "type": "list",
-   "headline": "TVMY v-MSX",
-   "background": "https://mi.pp.ru/wp-content/plugins/sb-function/assets/img/bg/coming-soon.jpg",
-   "logo": "https://tvmyru.github.io/msx/img/tvmy-logo.png",   
-   "logoSize": "large",   
+   "headline": "TVMYRU",
+   "background": "https://tvmyru.github.io/msx/img/coming-soon.jpg",
+   "logo": "https://tvmyru.github.io/msx/img/tvmy-logo.png",
+   "logoSize": "large",
    "preload": "next",
    "overlay": {
-           "items": [
+      "items": [
          {
             "type": "space",
             "layout": "7,0,4,6",
@@ -22,7 +22,7 @@
          {
             "id": "text",
             "type": "space",
-            "layout": "8,3,4,2",
+            "layout": "8,3,4,3",
             "headline": "",
             "text": ""
          }
@@ -45,14 +45,14 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}LAMPA{col}{br}{col:black}Отличное прилдожение для просмотра фильмов и сериалов онлайн или через торрент. Для просмотра торрентов нужен TorrServe.",
-               "image": "https://tvmyru.github.io/msx/img/lampa-pic.jpg"
+               "text": "{col:msx-white}LAMPA{col}{br}{col:black}Отличное приложение для просмотра фильмов и сериалов онлайн или через торрент. Для просмотра торрентов нужен TorrServe.",
+               "image": "https://tvmyru.github.io/msx/img/lampa-pic.gif"
             }
          },
          "image": "https://tvmyru.github.io/msx/img/lampa-logo.png",
          "action": "link:http://lampa.mx",
          "properties": {
-            "image:extension": "| {col:msx-white}Fifth Item"
+            "image:extension": "| {col:msx-white}1 Item"
          }
       },
       {
@@ -62,48 +62,48 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}DRM-play{col}{br}{col:black}IPTV плеер с поддержкой плейлистов в формате m3u, m3u8, stalker-portal, медиатеки. Тестовый плейлист для ознакомления с функциями плеера.",
-               "image": "https://tvmyru.github.io/msx//drm/capture.jpg"
+               "text": "{col:msx-white}DRM-play{col}{br}{col:black}MOD плеера Ott-Play by Alex с поддержкой плейлистов в формате m3u, m3u8, stalker-portal, медиатеки. Не содержит nagware кода, модулей аналитики и других сюрпризов. Есть тестовый плейлист))",
+               "image": "https://tvmyru.github.io/msx/img/drm-pic.gif"
             }
          },
-         "image": "https://tvmyru.github.io/msx//drm/logo.png",
+         "image": "https://tvmyru.github.io/msx/img/drm-logo.png",
          "action": "link:http://drm-play.com",
          "properties": {
-            "image:extension": "| {col:msx-white}First Item"
+            "image:extension": "| {col:msx-white}2 Item"
          }
       },
-       {
+      {
+         "titleHeader": "{col:msx-white}Prisma_TV",
+         "titleFooter": "{col:red}развивается",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}Prisma_TV{col}{br}{col:black}Отличный аналог Лампы. Приложения для ANDROID TV и GOOGLE TV для просмотра онлайн фильмов и сериалов.{br}Отсутствует реклама!",
+               "image": "https://tvmyru.github.io/msx/img/prisma-pic.gif"
+            }
+         },
+         "image": "https://tvmyru.github.io/msx/img/prisma-logo.png",
+         "action": "link:https://prisma.ws/",
+         "properties": {
+            "image:extension": "| {col:msx-white}3 Item"
+         }
+      },
+      {
          "titleHeader": "{col:msx-white}Akter Black",
          "titleFooter": "{col:green}тест",
          "selection": {
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Akter Black{col}{br}{col:black}Мод программы Лампа{br}{col:yellow}В данный момент находиться в разработке и некоторые функции могут быть недоступны!!!{br}Опубликованно только для ознакомления с программой!!!",
-               "image": "https://github.com/tvmyru/msx/blob/main/akter_black/welcome.jpg?raw=true"
+               "text": "{col:msx-white}Akter Black{col}{br}{col:black}Мод программы Лампа{br}{col:yellow}В данный момент находиться в разработке и некоторые функции могут быть недоступны!!!{br}Опубликовано только для ознакомления с программой!!!",
+               "image": "https://tvmyru.github.io/msx/img/akter-pic.gif"
             }
          },
-         "image": "https://github.com/tvmyru/msx/blob/main/akter_black/logo.png?raw=true",
+         "image": "https://tvmyru.github.io/msx/img/akter-logo.png",
          "action": "link:http://abvidaa.ru/",
          "properties": {
-            "image:extension": "| {col:msx-white}Sixth Item"
-         }
-      },
-      {
-         "titleHeader": "{col:msx-white}Prisma TV",
-         "titleFooter": "{col:red}test",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}Prisma TV{col}{br}{col:black}Мод программы Лампа{br}{col:yellow}В данный момент находиться в разработке и некоторые функции могут быть недоступны!!!{br}Опубликованно только для ознакомления с программой!!!",
-               "image": "https://github.com/tvmyru/msx/blob/main/prisma/001.png?raw=true"
-            }
-         },
-         "image": "https://github.com/tvmyru/msx/blob/main/prisma/logo.png?raw=true",
-         "action": "link:https://prisma.ws/",
-         "properties": {
-            "image:extension": "| {col:msx-white}Sixth Item"
+            "image:extension": "| {col:msx-white}4 Item"
          }
       },
       {

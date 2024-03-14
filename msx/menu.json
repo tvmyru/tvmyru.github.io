@@ -40,7 +40,7 @@
    "items": [
       {
          "titleHeader": "{col:msx-white}LAMPA",
-         "titleFooter": "",
+         "titleFooter": "Фильмы и сериалы",
          "selection": {
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
@@ -74,7 +74,7 @@
       },
       {
          "titleHeader": "{col:msx-white}Prisma_TV",
-         "titleFooter": "{col:red}развивается",
+         "titleFooter": "Фильмы и сериалы",
          "selection": {
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
@@ -91,7 +91,7 @@
       },
       {
          "titleHeader": "{col:msx-white}Akter Black",
-         "titleFooter": "{col:green}тест",
+         "titleFooter": "Фильмы и сериалы",
          "selection": {
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
@@ -125,7 +125,7 @@
       },
       {
          "titleHeader": "{col:msx-white}VoKINO",
-         "titleFooter": "",
+         "titleFooter": "Фильмы и сериалы",
          "selection": {
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
@@ -142,7 +142,7 @@
       },
       {
          "titleHeader": "{col:msx-white}ATODO",
-         "titleFooter": "",
+         "titleFooter": "Фильмы и сериалы",
          "selection": {
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
@@ -176,7 +176,7 @@
       },
       {
          "titleHeader": "{col:msx-white}RUTUBE-WEB",
-         "titleFooter": "",
+         "titleFooter": "Видеоролики",
          "selection": {
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
@@ -193,7 +193,7 @@
       },
       {
          "titleHeader": "{col:msx-white}YouTUBE",
-         "titleFooter": "",
+         "titleFooter": "Видеоролики",
          "selection": {
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
@@ -210,7 +210,7 @@
       },
       {
          "titleHeader": "{col:msx-white}YOUTUBE KIDS",
-         "titleFooter": "",
+         "titleFooter": "Видеоролики",
          "selection": {
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
@@ -227,7 +227,7 @@
       },
       {
          "titleHeader": "{col:msx-white}МУЛЬТИКИ",
-         "titleFooter": "",
+         "titleFooter": "Для детей",
          "selection": {
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
@@ -238,23 +238,6 @@
          },
          "image": "https://tvmyru.github.io/msx/multiki/logo.png",
          "action": "content:https://tvmyru.github.io/msx/welcome.json",
-         "properties": {
-            "image:extension": "| {col:msx-white}Sixth Item"
-         }
-      },
-      {
-         "titleHeader": "{col:msx-white}DEEPLEX",
-         "titleFooter": "",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}DEEPLEX{col}{br}{col:black}Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме, а так же просмотр торрентов.",
-               "image": "https://tvmyru.github.io/msx//deeplex/Deeplex.jpg"
-            }
-         },
-         "image": "https://tvmyru.github.io/msx//deeplex/logo.png",
-         "action": "link:http://smart.deeplex.cc/",
          "properties": {
             "image:extension": "| {col:msx-white}Sixth Item"
          }

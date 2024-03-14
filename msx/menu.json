@@ -1,6 +1,7 @@
 {
    "type": "list",
    "headline": "TVMY v-MSX",
+   "background": "https://mi.pp.ru/wp-content/plugins/sb-function/assets/img/bg/coming-soon.jpg",
    "logo": "https://tvmyru.github.io/msx/img/tvmy-logo.png",   
    "logoSize": "large",   
    "preload": "next",

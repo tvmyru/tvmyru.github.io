@@ -45,7 +45,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}LAMPA{col}{br}{col:black}Отличное приложение для просмотра фильмов и сериалов онлайн или через торрент. Для просмотра торрентов нужен TorrServe.",
+               "text": "{col:msx-white}LAMPA{col}{br}{col:yellow}=========={br}{col:msx-white}Отличное приложение для просмотра фильмов и сериалов онлайн или через торрент.{br}{col:yellow}Для просмотра торрентов нужен TorrServe.",
                "image": "https://tvmyru.github.io/msx/img/lampa-pic.gif"
             }
          },
@@ -62,7 +62,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}DRM-play{col}{br}{col:black}MOD известного плеера Ott-Play с поддержкой плейлистов в формате m3u, m3u8, stalker-portal, медиатеки. Не содержит nagware кода, модулей аналитики и других сюрпризов. Есть тестовый плейлист))",
+               "text": "{col:msx-white}DRM-play{col}{br}{col:yellow}=========={br}{col:msx-white}MOD известного плеера Ott-Play с поддержкой плейлистов в формате m3u, m3u8, stalker-portal, медиатеки. Не содержит nagware кода, модулей аналитики и других сюрпризов.{br}{col:yellow}Есть тестовый плейлист))",
                "image": "https://tvmyru.github.io/msx/img/drm-pic.gif"
             }
          },
@@ -79,15 +79,20 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}DRM-play{col}{br}{col:black}MOD известного плеера Ott-Play с поддержкой плейлистов в формате m3u, m3u8, stalker-portal, медиатеки. {br}{col:red}Не содержит политических лозунгов.",
+               "text": "{col:msx-white}DRM-play{col}{br}{col:yellow}=========={br}{col:msx-white}MOD известного плеера Ott-Play с поддержкой плейлистов в формате m3u, m3u8, stalker-portal, медиатеки.{br}{col:yellow}Не содержит политических лозунгов.",
                "image": "https://tvmyru.github.io/msx/img/drm-pic.gif"
             }
          },
-         "image": "https://tvmyru.github.io/msx/img/icva-logo.png",
+         "image": "https://tvmyru.github.io/msx/img/ottp-foss-logo.png",
          "action": "link:http://ottp.eu.org",
          "properties": {
             "image:extension": "| {col:msx-white}2 Item"
          }
+      },
+      {
+         "titleHeader": "{col:#1ac9b8}Akter Black",
+         "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/akterblack.jpg",
+         "action": "link:http://abmsx.tech/"
       },
       {
          "titleHeader": "{col:#1ac9b8}Prisma_TV",
@@ -96,7 +101,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Prisma_TV{col}{br}{col:black}Отличный аналог Лампы. Приложения для ANDROID TV и GOOGLE TV для просмотра онлайн фильмов и сериалов.{br}Отсутствует реклама!",
+               "text": "{col:msx-white}Prisma_TV{col}{br}{col:yellow}=========={br}{col:msx-white}Отличный аналог Лампы. Приложения для ANDROID TV и GOOGLE TV для просмотра онлайн фильмов и сериалов.{br}{col:yellow}Отсутствует реклама!",
                "image": "https://tvmyru.github.io/msx/img/prisma-pic.gif"
             }
          },
@@ -113,7 +118,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Akter Black{col}{br}{col:black}Мод программы Лампа{br}{col:yellow}В данный момент находиться в разработке и некоторые функции могут быть недоступны!!!{br}Опубликовано только для ознакомления с программой!!!",
+               "text": "{col:msx-white}Akter Black{col}{br}{col:yellow}=========={br}{col:msx-white}Мод программы Лампа. В данный момент находиться в разработке и некоторые функции могут быть недоступны!!!{br}Опубликовано только для ознакомления с программой!!!",
                "image": "https://tvmyru.github.io/msx/img/akter-pic.gif"
             }
          },
@@ -130,11 +135,11 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}ICVA{col}{br}{col:black}Отличный IPTV player от разработчиков LAMPA, в котором Вы найдете возможность просмотра своих плейлистов.",
+               "text": "{col:msx-white}ICVA{col}{br}{col:yellow}=========={br}{col:msx-white}Отличный IPTV player от разработчиков LAMPA, в котором Вы найдете возможность просмотра своих плейлистов.",
                "image": "https://tvmyru.github.io/msx//icva/capture.jpg"
             }
          },
-         "image": "https://tvmyru.github.io/msx/icva-logo.png",
+         "image": "https://tvmyru.github.io/msx/img/icva-logo.png",
          "action": "link:http://icva.mx/",
          "properties": {
             "image:extension": "| {col:msx-white}Fourth Item"
@@ -147,7 +152,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}VoKINO{col}{br}{col:black}Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме, а так же просмотр торрентов",
+               "text": "{col:msx-white}VoKINO{col}{br}{col:yellow}=========={br}{col:msx-white}Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме, а так же просмотр торрентов",
                "image": "https://tvmyru.github.io/msx//vokino/capture.gif"
             }
          },
@@ -164,7 +169,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}ATODO{col}{br}{col:black}Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме, а так же просмотр торрентов",
+               "text": "{col:msx-white}ATODO{col}{br}{col:yellow}=========={br}{col:msx-white}Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме, а так же просмотр торрентов",
                "image": "https://tvmyru.github.io/msx//atodo/capture.gif"
             }
          },
@@ -181,7 +186,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}КИНОПОИСК{col}{br}{col:black}Oнлайн-кинотеатр с фильмами и сериалами по подписке Яндекс Плюс или за отдельную плату.",
+               "text": "{col:msx-white}КИНОПОИСК{col}{br}{col:yellow}=========={br}{col:msx-white}Oнлайн-кинотеатр с фильмами и сериалами по подписке Яндекс Плюс или за отдельную плату.",
                "image": "https://tvmyru.github.io/msx//kinopoisk/screen.png"
             }
          },
@@ -198,7 +203,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}RUTUBE-WEB{col}{br}{col:black}Pоссийский онлайн-сервис для хостинга и просмотра видео",
+               "text": "{col:msx-white}RUTUBE-WEB{col}{br}{col:yellow}=========={br}{col:msx-white}Pоссийский онлайн-сервис для хостинга и просмотра видео",
                "image": "https://tvmyru.github.io/msx//rutube/capture.jpg"
             }
          },
@@ -215,7 +220,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}YouTUBE{col}{br}{col:black}Oнлайн-сервис для хостинга и просмотра видео",
+               "text": "{col:msx-white}YouTUBE{col}{br}{col:yellow}=========={br}{col:msx-white}Oнлайн-сервис для хостинга и просмотра видео",
                "image": "https://tvmyru.github.io/msx//youtube/capture.jpg"
             }
          },
@@ -232,7 +237,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}YOUTUBE KIDS{col}{br}{col:black}Oтдельная версия популярного видеохостинга Youtube, нацеленная исключительно на детей.",
+               "text": "{col:msx-white}YOUTUBE KIDS{col}{br}{col:yellow}=========={br}{col:msx-white}Oтдельная версия популярного видеохостинга Youtube, нацеленная исключительно на детей.",
                "image": "https://tvmyru.github.io/msx//youtube_kids/capture.gif"
             }
          },

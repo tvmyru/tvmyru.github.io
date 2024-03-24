@@ -62,12 +62,29 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}DRM-play{col}{br}{col:black}MOD плеера Ott-Play by Alex с поддержкой плейлистов в формате m3u, m3u8, stalker-portal, медиатеки. Не содержит nagware кода, модулей аналитики и других сюрпризов. Есть тестовый плейлист))",
+               "text": "{col:msx-white}DRM-play{col}{br}{col:black}MOD известного плеера Ott-Play с поддержкой плейлистов в формате m3u, m3u8, stalker-portal, медиатеки. Не содержит nagware кода, модулей аналитики и других сюрпризов. Есть тестовый плейлист))",
                "image": "https://tvmyru.github.io/msx/img/drm-pic.gif"
             }
          },
          "image": "https://tvmyru.github.io/msx/img/drm-logo.png",
          "action": "link:http://drm-play.com",
+         "properties": {
+            "image:extension": "| {col:msx-white}2 Item"
+         }
+      },
+      {
+         "titleHeader": "{col:#1ac9b8}OTT-play FOSS",
+         "titleFooter": "IPTV player",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}DRM-play{col}{br}{col:black}MOD известного плеера Ott-Play с поддержкой плейлистов в формате m3u, m3u8, stalker-portal, медиатеки. {br}{col:red}Не содержит политических лозунгов.",
+               "image": "https://tvmyru.github.io/msx/img/drm-pic.gif"
+            }
+         },
+         "image": "https://tvmyru.github.io/msx/img/icva-logo.png",
+         "action": "link:http://ottp.eu.org",
          "properties": {
             "image:extension": "| {col:msx-white}2 Item"
          }
@@ -113,11 +130,11 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}ICVA{col}{br}{col:black}IPTV player от разработчиков LAMPA. Возможность просмотра своих плейлистов.",
+               "text": "{col:msx-white}ICVA{col}{br}{col:black}Отличный IPTV player от разработчиков LAMPA, в котором Вы найдете возможность просмотра своих плейлистов.",
                "image": "https://tvmyru.github.io/msx//icva/capture.jpg"
             }
          },
-         "image": "https://tvmyru.github.io/msx//icva/logo.png",
+         "image": "https://tvmyru.github.io/msx/icva-logo.png",
          "action": "link:http://icva.mx/",
          "properties": {
             "image:extension": "| {col:msx-white}Fourth Item"

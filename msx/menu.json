@@ -87,7 +87,7 @@
             }
          },
          "image": "https://tvmyru.github.io/msx/img/ottp-foss-logo.png",
-         "action": "link:http://ottp.eu.org",
+         "action": "link:http://ottp.eu.org/f/",
          "properties": {
             "image:extension": "| {col:msx-white}2 Item"
          }
@@ -161,23 +161,6 @@
          }
       },
       {
-         "title": "{col:#1ac9b8}ATODO web",
-         "titleFooter": "Фильмы и сериалы",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}ATODO{col}{br}{col:yellow}=========={br}{col:msx-white}Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме, а так же просмотр торрентов",
-               "image": "https://tvmyru.github.io/msx//atodo/capture.gif"
-            }
-         },
-         "image": "https://tvmyru.github.io/msx/img/atodo-logo.png",
-         "action": "link:http://msx.atodo.fun/",
-         "properties": {
-            "image:extension": "| {col:msx-white}8 Item"
-         }
-      },
-      {
          "title": "{col:#1ac9b8}VoKINO",
          "titleFooter": "Фильмы и сериалы",
          "selection": {
@@ -192,23 +175,6 @@
          "action": "link: http://web.vokino.tv/",
          "properties": {
             "image:extension": "| {col:msx-white}6 Item"
-         }
-      },
-      {
-         "title": "{col:#1ac9b8}КИНОПОИСК",
-         "titleFooter": "",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}КИНОПОИСК{col}{br}{col:yellow}=========={br}{col:msx-white}Oнлайн-кинотеатр с фильмами и сериалами по подписке Яндекс Плюс или за отдельную плату.",
-               "image": "https://tvmyru.github.io/msx//kinopoisk/screen.png"
-            }
-         },
-         "image": "https://tvmyru.github.io/msx//kinopoisk/logo.png",
-         "action": "link:https://smarttv-app.ott.yandex.ru/",
-         "properties": {
-            "image:extension": "| {col:msx-white}Sixth Item"
          }
       },
       {
@@ -246,23 +212,6 @@
          }
       },
       {
-         "title": "{col:#1ac9b8}YOUTUBE KIDS",
-         "titleFooter": "Видеоролики",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}YOUTUBE KIDS{col}{br}{col:yellow}=========={br}{col:msx-white}Oтдельная версия популярного видеохостинга Youtube, нацеленная исключительно на детей.",
-               "image": "https://tvmyru.github.io/msx//youtube_kids/capture.gif"
-            }
-         },
-         "image": "https://tvmyru.github.io/msx//youtube_kids/logo.png",
-         "action": "link:https://www.youtube.com/tv/kids",
-         "properties": {
-            "image:extension": "| {col:msx-white}Sixth Item"
-         }
-      },
-      {
          "title": "{col:#1ac9b8}МУЛЬТИКИ",
          "titleFooter": "Для детей",
          "selection": {
@@ -293,11 +242,11 @@
          "image": "https://tvmyru.github.io/msx//kinopub/logo.png",
          "action": "link:http://kpms.cc/bootstrap.html",
          "properties": {
-            "image:extension": "| {col:msx-white}Sixth Item"
+            "image:extension": "| {col:msx-white} Item"
          }
       },
       {
-         "title": "{col:#1ac9b8}БОНУС",
+         "title": "{col:#1ac9b8}Смотрим",
          "titleFooter": "",
          "selection": {
             "important": true,
@@ -307,10 +256,10 @@
                "image": "https://tvmyru.github.io/msx/img/bonus.png"
             }
          },
-         "image": "https://tvmyru.github.io/msx/img/bonus.png",
-         "action": "menu: https://tvmyru.github.io/msx/bonus.json",
+         "image": "https://tvmyru.github.io/msx/img/smotrim-logo.png",
+         "action": "link:https://tv.smotrim.ru/",
          "properties": {
-            "image:extension": "| {col:msx-white}Sixth Item"
+            "image:extension": "| {col:msx-white} Item"
          }
       }
    ]

@@ -1,10 +1,13 @@
 {
+   "name": "TVMYRU",
    "type": "list",
+   "extension": "{ico:msx-white:event} {now:date:dd.mm.yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
    "headline": "TVMYRU",
    "background": "https://tvmyru.github.io/msx/img/coming-soon.jpg",
    "logo": "https://tvmyru.github.io/msx/img/tvmy-logo.png",
    "logoSize": "large",
    "preload": "next",
+   "dictionary": "https://tvmyru.github.io/msx/lang/ru.json",
    "overlay": {
       "items": [
          {
@@ -39,7 +42,7 @@
    },
    "items": [
       {
-         "titleHeader": "{col:#1ac9b8}LAMPA",
+         "title": "{col:#1ac9b8}LAMPA",
          "titleFooter": "Фильмы и сериалы",
          "selection": {
             "important": true,
@@ -56,7 +59,7 @@
          }
       },
       {
-         "titleHeader": "{col:#1ac9b8}DRM-play",
+         "title": "{col:#1ac9b8}DRM-play",
          "titleFooter": "IPTV player",
          "selection": {
             "important": true,
@@ -73,7 +76,7 @@
          }
       },
       {
-         "titleHeader": "{col:#1ac9b8}OTT-play FOSS",
+         "title": "{col:#1ac9b8}OTT-play FOSS",
          "titleFooter": "IPTV player",
          "selection": {
             "important": true,
@@ -90,12 +93,7 @@
          }
       },
       {
-         "titleHeader": "{col:#1ac9b8}Akter Black",
-         "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/akterblack.jpg",
-         "action": "link:http://abmsx.tech/"
-      },
-      {
-         "titleHeader": "{col:#1ac9b8}Prisma_TV",
+         "title": "{col:#1ac9b8}Prisma_TV",
          "titleFooter": "Фильмы и сериалы",
          "selection": {
             "important": true,
@@ -112,7 +110,7 @@
          }
       },
       {
-         "titleHeader": "{col:#1ac9b8}Akter Black",
+         "title": "{col:#1ac9b8}Akter Black",
          "titleFooter": "Фильмы и сериалы",
          "selection": {
             "important": true,
@@ -123,13 +121,13 @@
             }
          },
          "image": "https://tvmyru.github.io/msx/img/akter-logo.png",
-         "action": "link:http://abvidaa.ru/",
+         "action": "link:hhttp://abmsx.tech/",
          "properties": {
             "image:extension": "| {col:msx-white}4 Item"
          }
       },
       {
-         "titleHeader": "{col:#1ac9b8}ICVA",
+         "title": "{col:#1ac9b8}ICVA",
          "titleFooter": "IPTV player",
          "selection": {
             "important": true,
@@ -142,28 +140,11 @@
          "image": "https://tvmyru.github.io/msx/img/icva-logo.png",
          "action": "link:http://icva.mx/",
          "properties": {
-            "image:extension": "| {col:msx-white}Fourth Item"
+            "image:extension": "| {col:msx-white}5 Item"
          }
       },
       {
-         "titleHeader": "{col:#1ac9b8}VoKINO",
-         "titleFooter": "Фильмы и сериалы",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}VoKINO{col}{br}{col:yellow}=========={br}{col:msx-white}Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме, а так же просмотр торрентов",
-               "image": "https://tvmyru.github.io/msx//vokino/capture.gif"
-            }
-         },
-         "image": "https://tvmyru.github.io/msx//vokino/logo.png",
-         "action": "link: http://web.vokino.tv/",
-         "properties": {
-            "image:extension": "| {col:msx-white}Sixth Item"
-         }
-      },
-      {
-         "titleHeader": "{col:#1ac9b8}ATODO",
+         "title": "{col:#1ac9b8}ATODO",
          "titleFooter": "Фильмы и сериалы",
          "selection": {
             "important": true,
@@ -173,14 +154,48 @@
                "image": "https://tvmyru.github.io/msx//atodo/capture.gif"
             }
          },
-         "image": "https://tvmyru.github.io/msx//atodo/logo.png",
+         "image": "https://tvmyru.github.io/msx/img/atodo-logo.png",
          "action": "menu:request:interaction:menu@http://atodo.fun/fun.html",
          "properties": {
-            "image:extension": "| {col:msx-white}Sixth Item"
+            "image:extension": "| {col:msx-white}7 Item"
          }
       },
       {
-         "titleHeader": "{col:#1ac9b8}КИНОПОИСК",
+         "title": "{col:#1ac9b8}ATODO web",
+         "titleFooter": "Фильмы и сериалы",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}ATODO{col}{br}{col:yellow}=========={br}{col:msx-white}Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме, а так же просмотр торрентов",
+               "image": "https://tvmyru.github.io/msx//atodo/capture.gif"
+            }
+         },
+         "image": "https://tvmyru.github.io/msx/img/atodo-logo.png",
+         "action": "link:http://msx.atodo.fun/",
+         "properties": {
+            "image:extension": "| {col:msx-white}8 Item"
+         }
+      },
+      {
+         "title": "{col:#1ac9b8}VoKINO",
+         "titleFooter": "Фильмы и сериалы",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}VoKINO{col}{br}{col:yellow}=========={br}{col:msx-white}Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме, а так же просмотр торрентов",
+               "image": "https://tvmyru.github.io/msx//vokino/capture.gif"
+            }
+         },
+         "image": "https://tvmyru.github.io/msx/img/vokino-logo.png",
+         "action": "link: http://web.vokino.tv/",
+         "properties": {
+            "image:extension": "| {col:msx-white}6 Item"
+         }
+      },
+      {
+         "title": "{col:#1ac9b8}КИНОПОИСК",
          "titleFooter": "",
          "selection": {
             "important": true,
@@ -197,7 +212,7 @@
          }
       },
       {
-         "titleHeader": "{col:#1ac9b8}RUTUBE-WEB",
+         "title": "{col:#1ac9b8}RUTUBE-WEB",
          "titleFooter": "Видеоролики",
          "selection": {
             "important": true,
@@ -214,7 +229,7 @@
          }
       },
       {
-         "titleHeader": "{col:#1ac9b8}YouTUBE",
+         "title": "{col:#1ac9b8}YouTUBE",
          "titleFooter": "Видеоролики",
          "selection": {
             "important": true,
@@ -231,7 +246,7 @@
          }
       },
       {
-         "titleHeader": "{col:#1ac9b8}YOUTUBE KIDS",
+         "title": "{col:#1ac9b8}YOUTUBE KIDS",
          "titleFooter": "Видеоролики",
          "selection": {
             "important": true,
@@ -248,7 +263,7 @@
          }
       },
       {
-         "titleHeader": "{col:#1ac9b8}МУЛЬТИКИ",
+         "title": "{col:#1ac9b8}МУЛЬТИКИ",
          "titleFooter": "Для детей",
          "selection": {
             "important": true,
@@ -265,7 +280,7 @@
          }
       },
       {
-         "titleHeader": "{col:#1ac9b8}KinoPUB",
+         "title": "{col:#1ac9b8}KinoPUB",
          "titleFooter": "",
          "selection": {
             "important": true,
@@ -282,7 +297,7 @@
          }
       },
       {
-         "titleHeader": "{col:#1ac9b8}БОНУС",
+         "title": "{col:#1ac9b8}БОНУС",
          "titleFooter": "",
          "selection": {
             "important": true,

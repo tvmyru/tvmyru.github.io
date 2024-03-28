@@ -83,7 +83,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}DRM-play{col}{br}{col:yellow}=========={br}{col:msx-white}MOD известного плеера Ott-Play с поддержкой плейлистов в формате m3u, m3u8, stalker-portal, медиатеки.{br}{col:yellow}Не содержит политических лозунгов. Нет плейлистов.",
+               "text": "{col:msx-white}OTT-play FOSS{col}{br}{col:yellow}=========={br}{col:msx-white}MOD известного плеера Ott-Play с поддержкой плейлистов в формате m3u, m3u8, stalker-portal, медиатеки.{br}{col:yellow}Не содержит политических лозунгов. Нет плейлистов.",
                "image": "https://tvmyru.github.io/msx/img/ottp-foss-pic.gif"
             }
          },

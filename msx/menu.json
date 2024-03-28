@@ -117,7 +117,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Akter Black{col}{br}{col:yellow}=========={br}{col:msx-white}Отличный мод Лампа. Содержит всё необходимое для просмотра фильмов и сериалов!!!{br}На некоторых устройствах работает проблемно!!!",
+               "text": "{col:msx-white}Akter Black{col}{br}{col:yellow}=========={br}{col:msx-white}Отличный мод Лампа. Содержит всё необходимое для просмотра фильмов и сериалов!!!{br}{col:yellow}На некоторых устройствах работает проблемно!!!",
                "image": "https://tvmyru.github.io/msx/img/akter-pic.gif"
             }
          },
@@ -135,7 +135,7 @@
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
                "text": "{col:msx-white}ICVA{col}{br}{col:yellow}=========={br}{col:msx-white}Отличный IPTV player от разработчиков LAMPA, в котором Вы найдете возможность просмотра своих плейлистов.",
-               "image": "https://tvmyru.github.io/msx//icva/capture.jpg"
+               "image": "https://tvmyru.github.io/msx/img/icva-pic.gif"
             }
          },
          "image": "https://tvmyru.github.io/msx/img/icva-logo.png",
@@ -152,11 +152,11 @@
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
                "text": "{col:msx-white}ATODO{col}{br}{col:yellow}=========={br}{col:msx-white}Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме, а так же просмотр торрентов",
-               "image": "https://tvmyru.github.io/msx//atodo/capture.gif"
+               "image": "https://tvmyru.github.io/msx/img/atodo-pic.gif"
             }
          },
          "image": "https://tvmyru.github.io/msx/img/atodo-logo.png",
-         "action": "menu:request:interaction:menu@http://atodo.fun/fun.html",
+         "action": "menu:request:interaction:menu@https://atodo.fun/fun.html",
          "properties": {
             "image:extension": "| {col:msx-white} Item"
          }

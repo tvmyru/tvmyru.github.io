@@ -66,7 +66,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}DRM-play{col}{br}{col:yellow}=========={br}{col:msx-white}MOD известного плеера Ott-Play с поддержкой плейлистов в формате m3u, m3u8, stalker-portal, медиатеки. Не содержит nagware кода, модулей аналитики и других сюрпризов.{br}{col:yellow}Есть тестовый плейлист))",
+               "text": "{col:msx-white}DRM-play{col}{br}{col:yellow}=========={br}{col:msx-white}MOD известного плеера Ott-Play с поддержкой плейлистов в формате m3u, m3u8, stalker-portal, медиатеки. Не содержит nagware кода, модулей аналитики и других сюрпризов.{br}{col:yellow}Есть тестовый плейлист)) и содержит программу передач с архивом.",
                "image": "https://tvmyru.github.io/msx/img/drm-pic.gif"
             }
          },
@@ -83,8 +83,8 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}DRM-play{col}{br}{col:yellow}=========={br}{col:msx-white}MOD известного плеера Ott-Play с поддержкой плейлистов в формате m3u, m3u8, stalker-portal, медиатеки.{br}{col:yellow}Не содержит политических лозунгов.",
-               "image": "https://tvmyru.github.io/msx/img/drm-pic.gif"
+               "text": "{col:msx-white}DRM-play{col}{br}{col:yellow}=========={br}{col:msx-white}MOD известного плеера Ott-Play с поддержкой плейлистов в формате m3u, m3u8, stalker-portal, медиатеки.{br}{col:yellow}Не содержит политических лозунгов. Нет плейлистов.",
+               "image": "https://tvmyru.github.io/msx/img/ottp-foss-pic.gif"
             }
          },
          "image": "https://tvmyru.github.io/msx/img/ottp-foss-logo.png",
@@ -117,7 +117,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}Akter Black{col}{br}{col:yellow}=========={br}{col:msx-white}Мод программы Лампа. В данный момент находиться в разработке и некоторые функции могут быть недоступны!!!{br}Опубликовано только для ознакомления с программой!!!",
+               "text": "{col:msx-white}Akter Black{col}{br}{col:yellow}=========={br}{col:msx-white}Отличный мод Лампа. Содержит всё необходимое для просмотра фильмов и сериалов!!!{br}На некоторых устройствах работает проблемно!!!",
                "image": "https://tvmyru.github.io/msx/img/akter-pic.gif"
             }
          },
@@ -220,7 +220,7 @@
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
                "text": "{col:msx-white}Moovies{col}{br}{col:yellow}=========={br}{col:msx-white}Хороший сервис по просмотру фильмов и сериалов",
-               "image": "https://tvmyru.github.io/msx//youtube/capture.jpg"
+               "image": "https://tvmyru.github.io/msx/ipg/capture.jpg"
             }
          },
          "image": "https://tvmyru.github.io/msx/img/moovies-logo.png",
@@ -240,7 +240,7 @@
                "image": "https://github.com/tvmyru/repo/blob/main/multiki/multiki.gif?raw=true"
             }
          },
-         "image": "https://tvmyru.github.io/msx/multiki/logo.png",
+         "image": "https://tvmyru.github.io/msx/img/multiki-logo.png",
          "action": "content:https://tvmyru.github.io/msx/welcome.json",
          "properties": {
             "image:extension": "| {col:msx-white}Sixth Item"
@@ -270,7 +270,7 @@
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}БОНУС{col}{br}{col:yellow}=========={br}{col:msx-white}Здесь собраны ссылки на разнообразные материалы из сети Интернет.{br}Все материалы находятся в свободном доступе в сети.",
+               "text": "{col:msx-white}Смотрим{col}{br}{col:yellow}=========={br}{col:msx-white}российская государственная мультимедийная онлайн-платформа, разработанная крупнейшим государственным медиахолдингом «ВГТРК».",
                "image": "https://tvmyru.github.io/msx/img/bonus.png"
             }
          },

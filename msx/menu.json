@@ -121,7 +121,7 @@
             }
          },
          "image": "https://tvmyru.github.io/msx/img/akter-logo.png",
-         "action": "link:hhttp://abmsx.tech/",
+         "action": "link:http://abmsx.tech/",
          "properties": {
             "image:extension": "| {col:msx-white}4 Item"
          }

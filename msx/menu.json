@@ -220,7 +220,7 @@
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
                "text": "{col:msx-white}Moovies{col}{br}{col:yellow}=========={br}{col:msx-white}Хороший сервис по просмотру фильмов и сериалов",
-               "image": "https://tvmyru.github.io/msx/ipg/capture.jpg"
+               "image": "https://tvmyru.github.io/msx/img/moovies-pic.gif"
             }
          },
          "image": "https://tvmyru.github.io/msx/img/moovies-logo.png",

@@ -54,10 +54,7 @@
             }
          },
          "image": "https://tvmyru.github.io/msx/img/lampa-logo.png",
-         "action": "link:http://lampa.mx",
-         "properties": {
-            "image:extension": "| {col:msx-white} Item"
-         }
+         "action": "link:http://lampa.mx"
       },
       {
          "title": "{col:#1ac9b8}DRM-play",
@@ -71,10 +68,7 @@
             }
          },
          "image": "https://tvmyru.github.io/msx/img/drm-logo.png",
-         "action": "link:http://drm-play.com",
-         "properties": {
-            "image:extension": "| {col:msx-white} Item"
-         }
+         "action": "link:http://drm-play.com"
       },
       {
          "title": "{col:#1ac9b8}OTT-play FOSS",
@@ -88,10 +82,7 @@
             }
          },
          "image": "https://tvmyru.github.io/msx/img/ottp-foss-logo.png",
-         "action": "link:http://ottp.eu.org/f/",
-         "properties": {
-            "image:extension": "| {col:msx-white} Item"
-         }
+         "action": "link:http://ottp.eu.org/f/"
       },
       {
          "title": "{col:#1ac9b8}Prisma_TV",
@@ -105,10 +96,7 @@
             }
          },
          "image": "https://tvmyru.github.io/msx/img/prisma-logo.png",
-         "action": "link:https://prisma.ws/",
-         "properties": {
-            "image:extension": "| {col:msx-white} Item"
-         }
+         "action": "link:https://prisma.ws/"
       },
       {
          "title": "{col:#1ac9b8}Akter Black",
@@ -122,10 +110,7 @@
             }
          },
          "image": "https://tvmyru.github.io/msx/img/akter-logo.png",
-         "action": "link:http://abmsx.tech/",
-         "properties": {
-            "image:extension": "| {col:msx-white} Item"
-         }
+         "action": "link:http://abmsx.tech/"
       },
       {
          "title": "{col:#1ac9b8}ICVA",
@@ -139,10 +124,7 @@
             }
          },
          "image": "https://tvmyru.github.io/msx/img/icva-logo.png",
-         "action": "link:http://icva.mx/",
-         "properties": {
-            "image:extension": "| {col:msx-white} Item"
-         }
+         "action": "link:http://icva.mx/"
       },
       {
          "title": "{col:#1ac9b8}ATODO",
@@ -156,10 +138,21 @@
             }
          },
          "image": "https://tvmyru.github.io/msx/img/atodo-logo.png",
-         "action": "menu:request:interaction:menu@http://atodo.fun/fun.html",
-         "properties": {
-            "image:extension": "| {col:msx-white} Item"
-         }
+         "action": "menu:request:interaction:menu@http://atodo.fun/fun.html"
+      },
+	  {
+         "title": "{col:#1ac9b8}ATODO web",
+         "titleFooter": "Фильмы и сериалы",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}ATODO{col}{br}{col:yellow}=========={br}{col:msx-white}Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме, а так же просмотр торрентов",
+               "image": "https://tvmyru.github.io/msx/img/atodo-pic.gif"
+            }
+         },
+         "image": "https://tvmyru.github.io/msx/img/atodo-logo.png",
+         "action": "link:http://msx.atodo.fun/"
       },
       {
          "title": "{col:#1ac9b8}VoKINO",
@@ -173,10 +166,7 @@
             }
          },
          "image": "https://tvmyru.github.io/msx/img/vokino-logo.png",
-         "action": "link: http://web.vokino.tv/",
-         "properties": {
-            "image:extension": "| {col:msx-white} Item"
-         }
+         "action": "link: http://web.vokino.tv/"
       },
       {
          "title": "{col:#1ac9b8}RUTUBE-WEB",
@@ -190,10 +180,7 @@
             }
          },
          "image": "https://tvmyru.github.io/msx/img/rutube-logo.png",
-         "action": "link:https://rutube.ru/tv-release/rutube.server-22.0.0/webos/",
-         "properties": {
-            "image:extension": "| {col:msx-white} Item"
-         }
+         "action": "link:https://rutube.ru/tv-release/rutube.server-22.0.0/webos/"
       },
       {
          "title": "{col:#1ac9b8}YouTUBE",
@@ -207,10 +194,7 @@
             }
          },
          "image": "https://tvmyru.github.io/msx/img/youtube-logo.png",
-         "action": "link:https://www.youtube.com/tv#/",
-         "properties": {
-            "image:extension": "| {col:msx-white} Item"
-         }
+         "action": "link:https://www.youtube.com/tv#/"
       },
       {
          "title": "{col:#1ac9b8}Moovies",
@@ -224,10 +208,7 @@
             }
          },
          "image": "https://tvmyru.github.io/msx/img/moovies-logo.png",
-         "action": "menu:request:interaction:init@http://moovies.fun/index.html",
-         "properties": {
-            "image:extension": "| {col:msx-white} Item"
-         }
+         "action": "menu:request:interaction:init@http://moovies.fun/index.html"
       },
       {
          "title": "{col:#1ac9b8}KinoPUB",
@@ -241,10 +222,7 @@
             }
          },
          "image": "https://tvmyru.github.io/msx/img/kinipub-logo.png",
-         "action": "link:http://kpms.cc/bootstrap.html",
-         "properties": {
-            "image:extension": "| {col:msx-white} Item"
-         }
+         "action": "link:http://kpms.cc/bootstrap.html"
       },
       {
          "title": "{col:#1ac9b8}Смотрим",
@@ -258,10 +236,7 @@
             }
          },
          "image": "https://tvmyru.github.io/msx/img/smotrim-logo.png",
-         "action": "link:https://tv.smotrim.ru/",
-         "properties": {
-            "image:extension": "| {col:msx-white} Item"
-         }
+         "action": "link:https://tv.smotrim.ru/"
       }
    ]
 }

@@ -152,13 +152,13 @@
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
                "text": "{col:msx-white}ATODO{col}{br}{col:yellow}=========={br}{col:msx-white}Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме, а так же просмотр торрентов",
-               "image": "https://tvmyru.github.io/msx/img/atodo-pic.gif",
+               "image": "https://tvmyru.github.io/msx/img/atodo-pic.gif"
+            }
+         },
+         "image": "https://tvmyru.github.io/msx/img/atodo-logo.png",
+         "action": "menu:request:interaction:menu@http://atodo.fun/fun.html",
          "properties": {
             "image:extension": "| {col:msx-white} Item"
-         }
-      },
-         "image": "https://tvmyru.github.io/msx/img/atodo-logo.png",
-         "action": "menu:request:interaction:menu@https://atodo.fun/fun.html"
          }
       },
       {
@@ -227,23 +227,6 @@
          "action": "menu:request:interaction:init@http://moovies.fun/index.html",
          "properties": {
             "image:extension": "| {col:msx-white} Item"
-         }
-      },
-      {
-         "title": "{col:#1ac9b8}МУЛЬТИКИ",
-         "titleFooter": "Для детей",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}МУЛЬТИКИ{col}{br}{col:yellow}=========={br}{col:msx-white}Смотрим мультфильмы онлайн. Коллекция мультфильмов советских времен и не только. Самые лучшие мультики из вашего детства!",
-               "image": "https://github.com/tvmyru/repo/blob/main/multiki/multiki.gif?raw=true"
-            }
-         },
-         "image": "https://tvmyru.github.io/msx/img/multiki-logo.png",
-         "action": "content:https://tvmyru.github.io/msx/welcome.json",
-         "properties": {
-            "image:extension": "| {col:msx-white}Sixth Item"
          }
       },
       {

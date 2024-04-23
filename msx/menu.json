@@ -3,7 +3,7 @@
    "type": "list",
    "extension": "{ico:msx-white:event} {now:date:dd.mm.yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
    "headline": "TVMYRU",
-   "version": "1.0.0",
+   "version": "1.0.1",
    "background": "https://tvmyru.github.io/msx/img/coming-soon.jpg",
    "logo": "https://tvmyru.github.io/msx/img/tvmy-logo.png",
    "logoSize": "large",

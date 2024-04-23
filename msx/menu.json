@@ -156,9 +156,22 @@
             }
          },
          "image": "https://tvmyru.github.io/msx/img/atodo-logo.png",
-         "action": "menu:request:interaction:menu@https://atodo.fun/fun.html",
-         "properties": {
-            "image:extension": "| {col:msx-white} Item"
+         "action": "menu:request:interaction:menu@https://atodo.fun/fun.html"
+         }
+      },
+      {
+         "title": "{col:#1ac9b8}ATODO web",
+         "titleFooter": "Фильмы и сериалы",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}ATODO{col}{br}{col:yellow}=========={br}{col:msx-white}Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме, а так же просмотр торрентов",
+               "image": "https://tvmyru.github.io/msx/img/atodo-pic.gif"
+            }
+         },
+         "image": "https://tvmyru.github.io/msx/img/atodo-logo.png",
+         "action": "link:http://msx.atodo.fun/"
          }
       },
       {

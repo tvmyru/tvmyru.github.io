@@ -1,6 +1,0 @@
-{    
-    "name": "TVMY v-MSX",
-    "version": "1.0.1",
-    "parameter": "content:{PREFIX}{SERVER}/msx/menu.json",
-        "welcome": "none"
-}
